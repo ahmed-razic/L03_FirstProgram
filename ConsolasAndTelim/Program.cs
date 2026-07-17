@@ -1,0 +1,16 @@
+﻿namespace ConsolasAndTelim
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string name;
+            Console.WriteLine("Bread is ready.");
+            Console.WriteLine("Who is the bread for?");
+            name = Console.ReadLine();
+            Console.WriteLine(name + ", your bread is ready.");
+        }
+    }
+}
+
+
